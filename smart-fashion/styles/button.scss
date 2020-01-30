@@ -1,0 +1,18 @@
+.button1{
+  height: 50px;
+  width: 175px;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  background: rgb(29,111,244);
+  background: linear-gradient(150deg, rgba(29,111,244,1) 0%, rgba(76,222,251,1) 100%);
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  
+  &:hover{
+    background: linear-gradient(340deg, rgba(29,111,244,1) 0%, rgba(76,222,251,1) 100%);
+    cursor: pointer;
+  }
+}

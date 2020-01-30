@@ -1,0 +1,28 @@
+#home-banner-section{
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 750px;
+  background-image: url('/banner.png');
+
+  #home-banner-overlay{
+    background: rgba(37, 69, 120, 0.2);
+    height: 700px;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+  }
+  #home-tagline-container{
+    position: relative;
+    height: 300px;
+    width: 55%;
+    padding-top: 160px;
+    padding-left: 100px;
+
+    h1{
+      font-family: 'Quicksand', sans-serif;
+      font-size: 3.5rem;
+      color: white;
+      margin-bottom: 25px;
+    }
+  }
+}

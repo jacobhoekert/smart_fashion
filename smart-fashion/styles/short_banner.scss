@@ -1,0 +1,27 @@
+#short-banner-section{
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 450px;
+
+  #short-banner-overlay{
+    background: rgba(37, 69, 120, 0.2);
+    height: 450px;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+  }
+  #short-tagline-container{
+    position: relative;
+    height: 300px;
+    width: 55%;
+    padding-top: 160px;
+    padding-left: 100px;
+
+    h1{
+      font-family: 'Quicksand', sans-serif;
+      font-size: 3.5rem;
+      color: white;
+      margin-bottom: 25px;
+    }
+  }
+}
