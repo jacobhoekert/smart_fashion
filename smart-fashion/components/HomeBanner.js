@@ -8,8 +8,8 @@ const HomeBanner = () => {
       <section id="home-banner-section">
         <div id="home-banner-overlay">
           <div id="home-tagline-container">
-            <h1 id="tagline-text">The Best Custom Tailor in Chiang Mai for the Best Custom You</h1>
-            <Button path="/order" text="Order Online" />
+            <h1 id="tagline-text">Smart choice.<br/> We have the best <br />custom suits and clothing in Chiang Mai.</h1>
+            <Button path="/contact" text="Get Fitted" />
           </div>
         </div>
       </section>

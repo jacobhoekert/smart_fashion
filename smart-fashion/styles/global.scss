@@ -1,3 +1,21 @@
 body {
   margin: 0px;
 }
+
+div, h1, h2, h3, h4, p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+hr{
+  margin-top: 70px;
+  width: 70%;
+  border-top: 1.5px solid rgb(219, 219, 219);
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/icons.woff2') format('woff2');
+}

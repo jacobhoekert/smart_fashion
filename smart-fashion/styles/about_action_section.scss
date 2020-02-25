@@ -1,32 +1,32 @@
-#intro-section{
+#about-action-section{
   height: 500px;
 
-  #intro-container{
+  #about-action-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 70%;
     margin: auto;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 140px;
+    margin-bottom: 100px;
 
-    #intro-text{
+    #about-action-text{
       width: 50%;
       h2{
-        font-size: 45px;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        font-size: 42px;
+        margin-bottom: 20px
       }
       
       p{
         font-size: 18px;
+        
       }
     }
 
-    #intro-image{
+    #about-action-image{
       width: 45%;
-      height: 400px;
+      height: 350px;
       background-image: url('/about.png');
       background-position: center;
       background-repeat: no-repeat;

@@ -1,9 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
 import NavBar from '../components/NavBar';
-import BannerSection from '../components/HomeBanner';
-import '../styles/global.scss';
 import ShortBanner from '../components/ShortBanner';
+import AboutSection from '../components/AboutSection';
+import AboutActionSection from '../components/AboutActionSection';
+import '../styles/global.scss';
+import ContactBanner from '../components/ContactBanner';
+import Footer from '../components/Footer';
 
 const AboutPage = () => {
   return (
@@ -20,6 +23,10 @@ const AboutPage = () => {
           image="/order-suit.jpg"
           text="About us"
         />
+        <AboutSection />
+        <AboutActionSection />
+        <ContactBanner />
+        <Footer />
       </body>
       </main>
     </div>

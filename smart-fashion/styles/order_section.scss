@@ -1,0 +1,47 @@
+#order-section{
+  height: 550px;
+  background-image: url('/handshake.jpg');
+  background-position: top center;
+  background-size: cover;
+
+  #order-section-overlay{
+    background: rgba(24, 36, 56, 0.6);
+    height: 550px;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+
+    #order-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 70%;
+      margin: auto;
+      justify-content: space-evenly;
+      padding-top: 120px;
+  
+      @media screen and (max-width: 600px) {
+        padding-top: 40px;
+      }
+  
+      .order-title{
+        color: white;
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 0px;
+      }
+  
+      .order-text{
+        color: white;
+        font-size: 18px;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 650px;
+      }
+  
+    }
+  
+
+  }
+
+}

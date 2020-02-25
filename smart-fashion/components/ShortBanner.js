@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/short_banner.scss';
-import { urlObjectKeys } from 'next/dist/next-server/lib/utils';
 
 const ShortBanner = (props) => {
   return (

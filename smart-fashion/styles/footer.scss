@@ -1,0 +1,62 @@
+#footer{
+  height: 360px;
+  width: 100%;
+  margin-top: 130px;
+
+  @media screen and (max-width: 600px) {
+    margin-top: 80px;
+  }
+  
+  #footer-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    #contact-info-container{
+      display: flex;
+      flex-direction: column;
+
+      #dark-logo{
+        width: 200px;
+        height: auto;
+    
+        &:hover{
+          cursor: pointer;
+        }
+      }
+
+      .footer-info{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      #footer-email{
+        font-family: 'Quicksand', sans-serif;
+        margin-top: 25px;
+      }
+    
+    }
+
+    #footer-right-container{
+      font-size: 18px;
+      text-align: right;
+
+      #social-icons{
+      }
+
+      #address{
+      }
+    }
+
+   
+    
+  }
+  #footer-bottom{
+    margin-top: 30px;
+    text-align: center;
+  }
+ 
+
+}

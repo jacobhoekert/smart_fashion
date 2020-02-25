@@ -5,14 +5,13 @@
   font-size: 18px;
   color: white;
   font-weight: 600;
-  background: rgb(29,111,244);
-  background: linear-gradient(150deg, rgba(29,111,244,1) 0%, rgba(76,222,251,1) 100%);
+  background: linear-gradient(160deg, rgb(7, 156, 241) 0%, rgb(18, 100, 231) 100%);
   border-radius: 20px;
   outline: none;
   border: none;
   
   &:hover{
-    background: linear-gradient(340deg, rgba(29,111,244,1) 0%, rgba(76,222,251,1) 100%);
+    background: linear-gradient(340deg, rgb(7, 156, 241) 0%, rgb(18, 100, 231) 100%);
     cursor: pointer;
   }
 }
