@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import Head from "next/head";
 import NavBar from "../../components/NavBar";
-import Burger from '../components/Burger';
-import MobileMenu from '../components/MobileMenu';
+import Burger from '../../components/Burger';
+import MobileMenu from '../../components/MobileMenu';
 import ShortBanner from "../../components/ShortBanner";
 import "../../styles/global.scss";
 import "../../styles/blog-post.scss";

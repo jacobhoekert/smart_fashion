@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import OrderFormNav from './OrderFormNav';
 import { useSelector, useDispatch } from 'react-redux';
 import { changeOrderFormPage } from '../redux/actions/orderActions';
 import '../styles/order_form_end.scss';
@@ -25,7 +24,7 @@ const OrderFormEnd = () => {
     // send email with order
     axios({
       method: "POST",
-      url: "http://localhost:3000/api/sendOrderForm",
+      url: "http://smart-fashion.now.sh/api/sendOrderForm",
       data: orderForm
     })
   }, []);

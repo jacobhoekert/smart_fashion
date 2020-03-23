@@ -15,7 +15,7 @@ const OrderFormP4 = () => {
   const [errors, setErrors] = useState({});
 
   const countryList = [
-    "Select a Country",
+    "Select Country",
     "Afghanistan",
     "Albania",
     "Algeria",
@@ -213,6 +213,7 @@ const OrderFormP4 = () => {
     "Ukraine",
     "United Arab Emirates",
     "United Kingdom",
+    "United States",
     "Uruguay",
     "Uzbekistan",
     "Venezuela",

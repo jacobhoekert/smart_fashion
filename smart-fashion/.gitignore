@@ -26,3 +26,6 @@ yarn-error.log*
 
 email.config.js
 firebaseConfig.js
+
+.gitignore
+.now
