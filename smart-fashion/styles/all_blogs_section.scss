@@ -1,0 +1,43 @@
+#all-blogs-section{
+  height: auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (max-width: 600px) {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  #all-blogs-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+
+    @media screen and (max-width: 600px) {
+      width: 90%;
+    }
+  }
+
+}

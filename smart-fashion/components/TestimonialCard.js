@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 import '../styles/testimonial_card.scss';
 
 const TestimonialCard= (props) => {
@@ -16,11 +18,11 @@ const TestimonialCard= (props) => {
         />
         <div className="testimonial-info">
           <div className="testimonial-stars">
-            <i className="star">star_border</i>
-            <i className="star">star_border</i>
-            <i className="star">star_border</i>
-            <i className="star">star_border</i>
-            <i className="star">star_border</i>
+            <FontAwesomeIcon className="star" icon={faStar} />
+            <FontAwesomeIcon className="star" icon={faStar} />
+            <FontAwesomeIcon className="star" icon={faStar} />
+            <FontAwesomeIcon className="star" icon={faStar} />
+            <FontAwesomeIcon className="star" icon={faStar} />
           </div>
           <h4 className="testimonial-name">
             {props.name}

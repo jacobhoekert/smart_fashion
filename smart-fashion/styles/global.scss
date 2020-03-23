@@ -10,12 +10,12 @@ hr{
   margin-top: 70px;
   width: 70%;
   border-top: 1.5px solid rgb(219, 219, 219);
+
+  @media screen and (max-width: 930px) {
+    width: 85%;
+  }
 }
 
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/fonts/icons.woff2') format('woff2');
+a{
+  text-decoration: none;
 }

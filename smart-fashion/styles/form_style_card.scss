@@ -1,0 +1,87 @@
+.form-style-card{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(196, 194, 194, 0.2);
+  border-radius: 20px;
+  box-shadow: 0px 4px 5px rgba(196, 194, 194, 0.4);
+  background-color: white;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+
+  @media screen and (max-width: 930px) {
+    width: 100%;
+  }
+
+  &:hover{
+    background: linear-gradient(90deg, rgb(7, 156, 241) 0%, rgb(18, 100, 231) 100%);
+    transform: scale(1.015);
+    cursor: pointer;
+    color: white;
+  }
+
+  .form-style-image{
+    margin: 0px;
+    margin-bottom: 15px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 18px;
+    height: auto;
+  }
+
+  .form-style-title{
+    text-align: center;
+    font-size: 22px;
+    margin: 0px;
+  }
+
+  .form-style-desc{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px !important;
+  }
+}
+
+.selected-style {
+  background: linear-gradient(90deg, rgb(7, 156, 241) 0%, rgb(18, 100, 231) 100%);
+  color: white;
+}
+
+.shirt-style-card {
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.two-columns {
+  width: 34%;
+
+  @media screen and (max-width: 600px) {
+    width: 95%;
+  }
+}
+
+.three-columns {
+  width: 28%;
+
+  @media screen and (max-width: 600px) {
+    width: 95%;
+  }
+}
+
+.five-columns {
+  width: 18%;
+
+   h4 {
+     font-size: 15px !important;
+     padding-left: 10px;
+     padding-right: 10px;
+   }
+
+  @media screen and (max-width: 600px) {
+    width: 30%;
+    font-size: 12px !important;
+  
+  }
+}
+

@@ -9,6 +9,8 @@
   @media screen and (max-width: 600px) {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 80px;
+    padding-top: 40px;
   }
 
   h2{
@@ -17,6 +19,12 @@
     line-height: 45px;
     margin-bottom: 0px;
     margin-top: 0px;
+
+    @media screen and (max-width: 930px) {
+      width: 85%;
+      font-size: 40px;
+    }
+
   }
 
   h3{
@@ -24,6 +32,11 @@
     font-size: 30px;
     margin-bottom: 20px;
     margin-top: 15px;
+
+    @media screen and (max-width: 930px) {
+      width: 85%;
+      font-size: 20px;
+    }
   }
 
   #styles-container{
@@ -36,10 +49,18 @@
 
     @media screen and (max-width: 600px) {
       width: 90%;
+      justify-content: center;
+      flex-wrap: wrap;
+
     }
   }
 
   .styles-contact-text{
     margin-top: 0px;
+
+    @media screen and (max-width: 600px) {
+      width: 80%;
+      text-align: center;
+    }
   }
 }

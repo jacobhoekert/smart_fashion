@@ -1,0 +1,16 @@
+.progress-bar {
+  position: relative;
+  height: 10px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin: auto;
+  margin-bottom: 40px;
+
+  .filler {
+    background: linear-gradient(160deg, rgb(7, 156, 241) 0%, rgb(18, 100, 231) 100%);
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
+  }
+}

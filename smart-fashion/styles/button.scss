@@ -14,4 +14,12 @@
     background: linear-gradient(340deg, rgb(7, 156, 241) 0%, rgb(18, 100, 231) 100%);
     cursor: pointer;
   }
+
+  @media screen and (max-width: 650px) {
+    width: 250px;
+    height: 65px;
+    font-size: 21px;
+    margin: auto;
+    display: block;
+  }
 }

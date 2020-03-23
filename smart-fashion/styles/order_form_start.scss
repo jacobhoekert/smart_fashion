@@ -1,0 +1,60 @@
+#order-form-start{
+  height: 550px;
+
+  #order-form-start-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-top: 120px;
+
+    @media screen and (max-width: 600px) {
+      padding-top: 50px;
+    }
+
+    .order-form-start-title{
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 600px) {
+        width: 95%;
+      }
+    }
+
+    .order-form-start-text{
+      width: 90%;
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 40px;
+
+      @media screen and (max-width: 600px) {
+        width: 95%;
+      }
+    }
+
+    img {
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+
+    .order-form-button{
+      height: 50px;
+      width: 175px;
+      padding: 10px;
+      font-size: 18px;
+      border: solid 2px black;
+      border-radius: 20px;
+      outline: none;
+      margin-bottom: 20px;
+      
+      &:hover{
+        background: linear-gradient(340deg, rgb(7, 156, 241) 0%, rgb(18, 100, 231) 100%);
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

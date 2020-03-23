@@ -1,8 +1,12 @@
 #home-banner-section{
   background-position: center top;
   background-repeat: no-repeat;
-  height: 750px;
+  height: 700px;
   background-image: url('/banner.png');
+
+  @media screen and (max-width: 650px) {
+    background-image: url('/man-suit2.jpg');
+  }
 
   #home-banner-overlay{
     background: rgba(37, 69, 120, 0.2);
@@ -10,6 +14,11 @@
     z-index: 2;
     position: relative;
     overflow: hidden;
+
+    @media screen and (max-width: 650px) {
+      background: rgba(29, 53, 92, 0.4);
+      
+    }
   }
   #home-tagline-container{
     position: relative;
@@ -18,10 +27,23 @@
     padding-top: 140px;
     padding-left: 100px;
 
+    @media screen and (max-width: 650px) {
+      width: 85%;
+      padding-top: 230px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
     h1{
       font-size: 3.5rem;
       color: white;
       margin-bottom: 25px;
+
+      @media screen and (max-width: 650px) {
+        font-size: 1.9rem;
+        text-align: center;
+
+      }
     }
   }
 }

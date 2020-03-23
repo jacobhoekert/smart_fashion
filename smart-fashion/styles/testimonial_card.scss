@@ -1,6 +1,7 @@
 .testimonial-card{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 48%;
   border: 1px solid rgba(196, 194, 194, 0.2);
   border-radius: 20px;
@@ -39,12 +40,8 @@
         padding-left: 20px;
     
         .star {
-          font-family: 'Material Icons';
-          color: rgb(223, 219, 17);
+          color: rgb(255, 238, 0);
           font-size: 20px;
-          font-style: normal;
-          -webkit-font-feature-settings: 'liga';
-          -webkit-font-smoothing: antialiased;
         }
       }
     

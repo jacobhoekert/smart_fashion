@@ -17,11 +17,22 @@
     padding-top: 160px;
     padding-left: 100px;
 
+    @media screen and (max-width: 650px) {
+      width: 100%;
+      padding-top: 200px;
+      padding-left: 0px;
+    }
+
     h1{
       font-family: 'Quicksand', sans-serif;
       font-size: 3.5rem;
       color: white;
       margin-bottom: 25px;
+
+      @media screen and (max-width: 650px) {
+        text-align: center;
+
+      }
     }
   }
 }

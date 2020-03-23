@@ -9,7 +9,7 @@ const ContactBanner = () => {
         <div id="contact-banner-container">
           <h2 className="contact-question">Got Any Questions?</h2>
           <p className="contact-text">We would love to help you</p>
-          <Button path="/contact" text="123-123-1234" />
+          <a href="tel:+66 88-8782866"><Button text="+66 88-8782866"/></a>
           <div className="empty-space"></div>
           <Button path="/contact" text="Send us an email" />
         </div>
